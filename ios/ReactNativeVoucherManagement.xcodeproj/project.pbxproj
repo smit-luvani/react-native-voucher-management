@@ -1,0 +1,895 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* ReactNativeVoucherManagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeVoucherManagementTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-ReactNativeVoucherManagement.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ReactNativeVoucherManagement.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		FACBAE5CCF4146DAB2266EBB /* Borel-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49073A016E684E47BC198582 /* Borel-Regular.ttf */; };
+		E23D564D2DA34DEBB917E0AA /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67ECA02B9BCA4DADB19C06D0 /* Gilroy-Bold.ttf */; };
+		2695F78F715E4356AA8CC9C2 /* Gilroy-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5586DCFF6EC4E35BEDB947C /* Gilroy-ExtraBold.ttf */; };
+		90A3A598146A4DC5B4F22D16 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BC868EE0E9A4D09A148AFA7 /* Gilroy-Medium.ttf */; };
+		6F2FCDF0A7344EA2B1B41BFE /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F32E6EA43ADF4B52A346D942 /* Gilroy-Regular.ttf */; };
+		79FDB6213B0841F2AAF0B74E /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F10F0A9253048C682331740 /* Gilroy-SemiBold.ttf */; };
+		7FA0BF7DAE7549C7B270F1A4 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAF8D5A01DEB46B9B8CDB02B /* Roboto-Bold.ttf */; };
+		F0444E4EC736411DAD5F2D35 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57267CC24AC84BCEA80E2B5E /* Roboto-BoldItalic.ttf */; };
+		AF24567D6E0E480AAEB988E1 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9064BB7AE7924E7394B69C44 /* Roboto-Italic.ttf */; };
+		7583BF5DC9A049518F3C6E3C /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FED4C52185A4E45985DD7C5 /* Roboto-Light.ttf */; };
+		5ACA40169A914340803CFEB9 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0E5C02DB3CD4B229736974E /* Roboto-LightItalic.ttf */; };
+		4B9FFA14EF4F4128BFDE86F0 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 013CEF9852834292AA39A4E5 /* Roboto-Medium.ttf */; };
+		32487A823D984E209BCEB384 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A33987694DBA4C5B910ADC63 /* Roboto-MediumItalic.ttf */; };
+		C1B6666767C24D9F8B001AA4 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBFCA9392BE641D980FB95E0 /* Roboto-Regular.ttf */; };
+		0208CE17279B44CEA231E4DD /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC442E8B383140D68946BF34 /* Roboto-Thin.ttf */; };
+		CE8690B7EB9140FDBA8B24A4 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A649698617794561B06533D4 /* Roboto-ThinItalic.ttf */; };
+		70AA60DC58864A178D1F2C97 /* Handjet-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 757911BA216A45AF914F9173 /* Handjet-Black.ttf */; };
+		0FCE5EDB95B44A97B8CBF175 /* Handjet-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC41D195B32C43EFAB5BDAA3 /* Handjet-Bold.ttf */; };
+		BA0C2E2B3EE344C4B54561E7 /* Handjet-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58D8FCDABC5F4BF185EB3F28 /* Handjet-ExtraBold.ttf */; };
+		EDDEBDA6AF174D4683B2B01B /* Handjet-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F0B1FC3F12F4704AB440EB6 /* Handjet-ExtraLight.ttf */; };
+		5A5353B578D34ED0ABAC7437 /* Handjet-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D3801ADE3D94505B9D2A633 /* Handjet-Light.ttf */; };
+		331194175BC342DC9F01FF10 /* Handjet-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 913DBF55A5084FA5AFC01BFA /* Handjet-Medium.ttf */; };
+		8E72F3A069AE41739CB2E7C6 /* Handjet-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AABAB7CC5C842F389B17F2F /* Handjet-Regular.ttf */; };
+		F43A144DD81E4B318FE17690 /* Handjet-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB29BE4DF0E9483C93C0BE57 /* Handjet-SemiBold.ttf */; };
+		48D0F5DCF59E453AA2AC69DA /* Handjet-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBA89BA7FB304E17B8DB89A4 /* Handjet-Thin.ttf */; };
+		84DE6E9FB57D4EF3AA04C460 /* Handjet-VariableFont_ELGR,ELSH,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D4FCBD2F84D4DF28DC70E5F /* Handjet-VariableFont_ELGR,ELSH,wght.ttf */; };
+		020EF6FE2EB3498A8EA8EF7F /* YsabeauInfant-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EFC2310F91B4EF084EF3908 /* YsabeauInfant-Black.ttf */; };
+		347ED73C11D24670A3C4654A /* YsabeauInfant-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52CD5B246FE34C17BA2A1D30 /* YsabeauInfant-BlackItalic.ttf */; };
+		BCAE96A19BEA47F2AC17961A /* YsabeauInfant-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9AED098E5714309900BAB99 /* YsabeauInfant-Bold.ttf */; };
+		C603A745A9C1490297390B77 /* YsabeauInfant-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F074399A85D4E4E81342423 /* YsabeauInfant-BoldItalic.ttf */; };
+		724654B35FE442D19C6223D0 /* YsabeauInfant-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDFC3CF4A3094082B2F6F640 /* YsabeauInfant-ExtraBold.ttf */; };
+		699AEB0DCB134E73B1F3ACFB /* YsabeauInfant-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE33887FBE9F4DDBBB800E6E /* YsabeauInfant-ExtraBoldItalic.ttf */; };
+		BD8BF34282EA43B79A1E7C8F /* YsabeauInfant-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C65A37FE536476F9A92440F /* YsabeauInfant-ExtraLight.ttf */; };
+		5E3A0C0118C840B0AD9EF51A /* YsabeauInfant-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DDCBA08A35A40488914738C /* YsabeauInfant-ExtraLightItalic.ttf */; };
+		0E4902BBA17D417D9870EC00 /* YsabeauInfant-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 424E37CE50C64C32AC7B67EC /* YsabeauInfant-Italic-VariableFont_wght.ttf */; };
+		039DBACE665C4510A19ED94C /* YsabeauInfant-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD0427A6A21446C0BE004500 /* YsabeauInfant-Italic.ttf */; };
+		C2F420EF554B4D86BAFFBECB /* YsabeauInfant-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 200509045038492F9729EBDF /* YsabeauInfant-Light.ttf */; };
+		10EB19521AEA425E9D0DA485 /* YsabeauInfant-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4561B83552304EC2BF9BFE35 /* YsabeauInfant-LightItalic.ttf */; };
+		8F17B26F14B94ECAAC82C9D1 /* YsabeauInfant-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 934DC36B19534420ADFEAB24 /* YsabeauInfant-Medium.ttf */; };
+		2D9886958C3E45989D5BE921 /* YsabeauInfant-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C1557BED2C54D8FBC8586E7 /* YsabeauInfant-MediumItalic.ttf */; };
+		0C8F80B1D94640B2857D11A5 /* YsabeauInfant-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A8A406459F04ED5A7BFC345 /* YsabeauInfant-Regular.ttf */; };
+		564FFD9A78264C0DB23EA698 /* YsabeauInfant-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76AFB1DF56BF4F81AE98476B /* YsabeauInfant-SemiBold.ttf */; };
+		DFF2E953F018457C823DBB81 /* YsabeauInfant-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6ABA4A6FBFA419B90F7A2F3 /* YsabeauInfant-SemiBoldItalic.ttf */; };
+		772EEC1FA43E4C1FAE5D046E /* YsabeauInfant-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86F59873B1034DDEBF87D9E4 /* YsabeauInfant-Thin.ttf */; };
+		9F9633AD3B8B4CB08B5A62AA /* YsabeauInfant-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EE8F86297AD46A08D1B3EA6 /* YsabeauInfant-ThinItalic.ttf */; };
+		0EA4F31421814429860E3663 /* YsabeauInfant-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F68221FF23214DD6879B76CD /* YsabeauInfant-VariableFont_wght.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = ReactNativeVoucherManagement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* ReactNativeVoucherManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeVoucherManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* ReactNativeVoucherManagementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeVoucherManagementTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* ReactNativeVoucherManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeVoucherManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReactNativeVoucherManagement/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ReactNativeVoucherManagement/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNativeVoucherManagement/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativeVoucherManagement/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativeVoucherManagement/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-ReactNativeVoucherManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeVoucherManagement.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeVoucherManagement/Pods-ReactNativeVoucherManagement.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-ReactNativeVoucherManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeVoucherManagement.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeVoucherManagement/Pods-ReactNativeVoucherManagement.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests/Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-ReactNativeVoucherManagement.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeVoucherManagement.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativeVoucherManagement/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests/Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		49073A016E684E47BC198582 /* Borel-Regular.ttf */ = {isa = PBXFileReference; name = "Borel-Regular.ttf"; path = "../src/assets/fonts/Borel-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		67ECA02B9BCA4DADB19C06D0 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; name = "Gilroy-Bold.ttf"; path = "../src/assets/fonts/Gilroy-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D5586DCFF6EC4E35BEDB947C /* Gilroy-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Gilroy-ExtraBold.ttf"; path = "../src/assets/fonts/Gilroy-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1BC868EE0E9A4D09A148AFA7 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; name = "Gilroy-Medium.ttf"; path = "../src/assets/fonts/Gilroy-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F32E6EA43ADF4B52A346D942 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; name = "Gilroy-Regular.ttf"; path = "../src/assets/fonts/Gilroy-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0F10F0A9253048C682331740 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; name = "Gilroy-SemiBold.ttf"; path = "../src/assets/fonts/Gilroy-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FAF8D5A01DEB46B9B8CDB02B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; name = "Roboto-Bold.ttf"; path = "../src/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		57267CC24AC84BCEA80E2B5E /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-BoldItalic.ttf"; path = "../src/assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9064BB7AE7924E7394B69C44 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; name = "Roboto-Italic.ttf"; path = "../src/assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2FED4C52185A4E45985DD7C5 /* Roboto-Light.ttf */ = {isa = PBXFileReference; name = "Roboto-Light.ttf"; path = "../src/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E0E5C02DB3CD4B229736974E /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-LightItalic.ttf"; path = "../src/assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		013CEF9852834292AA39A4E5 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; name = "Roboto-Medium.ttf"; path = "../src/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A33987694DBA4C5B910ADC63 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-MediumItalic.ttf"; path = "../src/assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DBFCA9392BE641D980FB95E0 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC442E8B383140D68946BF34 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; name = "Roboto-Thin.ttf"; path = "../src/assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A649698617794561B06533D4 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-ThinItalic.ttf"; path = "../src/assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		757911BA216A45AF914F9173 /* Handjet-Black.ttf */ = {isa = PBXFileReference; name = "Handjet-Black.ttf"; path = "../src/assets/fonts/Handjet-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EC41D195B32C43EFAB5BDAA3 /* Handjet-Bold.ttf */ = {isa = PBXFileReference; name = "Handjet-Bold.ttf"; path = "../src/assets/fonts/Handjet-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		58D8FCDABC5F4BF185EB3F28 /* Handjet-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Handjet-ExtraBold.ttf"; path = "../src/assets/fonts/Handjet-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8F0B1FC3F12F4704AB440EB6 /* Handjet-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Handjet-ExtraLight.ttf"; path = "../src/assets/fonts/Handjet-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1D3801ADE3D94505B9D2A633 /* Handjet-Light.ttf */ = {isa = PBXFileReference; name = "Handjet-Light.ttf"; path = "../src/assets/fonts/Handjet-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		913DBF55A5084FA5AFC01BFA /* Handjet-Medium.ttf */ = {isa = PBXFileReference; name = "Handjet-Medium.ttf"; path = "../src/assets/fonts/Handjet-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3AABAB7CC5C842F389B17F2F /* Handjet-Regular.ttf */ = {isa = PBXFileReference; name = "Handjet-Regular.ttf"; path = "../src/assets/fonts/Handjet-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CB29BE4DF0E9483C93C0BE57 /* Handjet-SemiBold.ttf */ = {isa = PBXFileReference; name = "Handjet-SemiBold.ttf"; path = "../src/assets/fonts/Handjet-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FBA89BA7FB304E17B8DB89A4 /* Handjet-Thin.ttf */ = {isa = PBXFileReference; name = "Handjet-Thin.ttf"; path = "../src/assets/fonts/Handjet-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0D4FCBD2F84D4DF28DC70E5F /* Handjet-VariableFont_ELGR,ELSH,wght.ttf */ = {isa = PBXFileReference; name = "Handjet-VariableFont_ELGR,ELSH,wght.ttf"; path = "../src/assets/fonts/Handjet-VariableFont_ELGR,ELSH,wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5EFC2310F91B4EF084EF3908 /* YsabeauInfant-Black.ttf */ = {isa = PBXFileReference; name = "YsabeauInfant-Black.ttf"; path = "../src/assets/fonts/YsabeauInfant-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		52CD5B246FE34C17BA2A1D30 /* YsabeauInfant-BlackItalic.ttf */ = {isa = PBXFileReference; name = "YsabeauInfant-BlackItalic.ttf"; path = "../src/assets/fonts/YsabeauInfant-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D9AED098E5714309900BAB99 /* YsabeauInfant-Bold.ttf */ = {isa = PBXFileReference; name = "YsabeauInfant-Bold.ttf"; path = "../src/assets/fonts/YsabeauInfant-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5F074399A85D4E4E81342423 /* YsabeauInfant-BoldItalic.ttf */ = {isa = PBXFileReference; name = "YsabeauInfant-BoldItalic.ttf"; path = "../src/assets/fonts/YsabeauInfant-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DDFC3CF4A3094082B2F6F640 /* YsabeauInfant-ExtraBold.ttf */ = {isa = PBXFileReference; name = "YsabeauInfant-ExtraBold.ttf"; path = "../src/assets/fonts/YsabeauInfant-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FE33887FBE9F4DDBBB800E6E /* YsabeauInfant-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "YsabeauInfant-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/YsabeauInfant-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8C65A37FE536476F9A92440F /* YsabeauInfant-ExtraLight.ttf */ = {isa = PBXFileReference; name = "YsabeauInfant-ExtraLight.ttf"; path = "../src/assets/fonts/YsabeauInfant-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5DDCBA08A35A40488914738C /* YsabeauInfant-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "YsabeauInfant-ExtraLightItalic.ttf"; path = "../src/assets/fonts/YsabeauInfant-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		424E37CE50C64C32AC7B67EC /* YsabeauInfant-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "YsabeauInfant-Italic-VariableFont_wght.ttf"; path = "../src/assets/fonts/YsabeauInfant-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CD0427A6A21446C0BE004500 /* YsabeauInfant-Italic.ttf */ = {isa = PBXFileReference; name = "YsabeauInfant-Italic.ttf"; path = "../src/assets/fonts/YsabeauInfant-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		200509045038492F9729EBDF /* YsabeauInfant-Light.ttf */ = {isa = PBXFileReference; name = "YsabeauInfant-Light.ttf"; path = "../src/assets/fonts/YsabeauInfant-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4561B83552304EC2BF9BFE35 /* YsabeauInfant-LightItalic.ttf */ = {isa = PBXFileReference; name = "YsabeauInfant-LightItalic.ttf"; path = "../src/assets/fonts/YsabeauInfant-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		934DC36B19534420ADFEAB24 /* YsabeauInfant-Medium.ttf */ = {isa = PBXFileReference; name = "YsabeauInfant-Medium.ttf"; path = "../src/assets/fonts/YsabeauInfant-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7C1557BED2C54D8FBC8586E7 /* YsabeauInfant-MediumItalic.ttf */ = {isa = PBXFileReference; name = "YsabeauInfant-MediumItalic.ttf"; path = "../src/assets/fonts/YsabeauInfant-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5A8A406459F04ED5A7BFC345 /* YsabeauInfant-Regular.ttf */ = {isa = PBXFileReference; name = "YsabeauInfant-Regular.ttf"; path = "../src/assets/fonts/YsabeauInfant-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		76AFB1DF56BF4F81AE98476B /* YsabeauInfant-SemiBold.ttf */ = {isa = PBXFileReference; name = "YsabeauInfant-SemiBold.ttf"; path = "../src/assets/fonts/YsabeauInfant-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F6ABA4A6FBFA419B90F7A2F3 /* YsabeauInfant-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "YsabeauInfant-SemiBoldItalic.ttf"; path = "../src/assets/fonts/YsabeauInfant-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		86F59873B1034DDEBF87D9E4 /* YsabeauInfant-Thin.ttf */ = {isa = PBXFileReference; name = "YsabeauInfant-Thin.ttf"; path = "../src/assets/fonts/YsabeauInfant-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8EE8F86297AD46A08D1B3EA6 /* YsabeauInfant-ThinItalic.ttf */ = {isa = PBXFileReference; name = "YsabeauInfant-ThinItalic.ttf"; path = "../src/assets/fonts/YsabeauInfant-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F68221FF23214DD6879B76CD /* YsabeauInfant-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "YsabeauInfant-VariableFont_wght.ttf"; path = "../src/assets/fonts/YsabeauInfant-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-ReactNativeVoucherManagement.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* ReactNativeVoucherManagementTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* ReactNativeVoucherManagementTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = ReactNativeVoucherManagementTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* ReactNativeVoucherManagement */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = ReactNativeVoucherManagement;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-ReactNativeVoucherManagement.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* ReactNativeVoucherManagement */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* ReactNativeVoucherManagementTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				37821515EF394CC2BCB27D4C /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* ReactNativeVoucherManagement.app */,
+				00E356EE1AD99517003FC87E /* ReactNativeVoucherManagementTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-ReactNativeVoucherManagement.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-ReactNativeVoucherManagement.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		37821515EF394CC2BCB27D4C /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				49073A016E684E47BC198582 /* Borel-Regular.ttf */,
+				67ECA02B9BCA4DADB19C06D0 /* Gilroy-Bold.ttf */,
+				D5586DCFF6EC4E35BEDB947C /* Gilroy-ExtraBold.ttf */,
+				1BC868EE0E9A4D09A148AFA7 /* Gilroy-Medium.ttf */,
+				F32E6EA43ADF4B52A346D942 /* Gilroy-Regular.ttf */,
+				0F10F0A9253048C682331740 /* Gilroy-SemiBold.ttf */,
+				FAF8D5A01DEB46B9B8CDB02B /* Roboto-Bold.ttf */,
+				57267CC24AC84BCEA80E2B5E /* Roboto-BoldItalic.ttf */,
+				9064BB7AE7924E7394B69C44 /* Roboto-Italic.ttf */,
+				2FED4C52185A4E45985DD7C5 /* Roboto-Light.ttf */,
+				E0E5C02DB3CD4B229736974E /* Roboto-LightItalic.ttf */,
+				013CEF9852834292AA39A4E5 /* Roboto-Medium.ttf */,
+				A33987694DBA4C5B910ADC63 /* Roboto-MediumItalic.ttf */,
+				DBFCA9392BE641D980FB95E0 /* Roboto-Regular.ttf */,
+				BC442E8B383140D68946BF34 /* Roboto-Thin.ttf */,
+				A649698617794561B06533D4 /* Roboto-ThinItalic.ttf */,
+				757911BA216A45AF914F9173 /* Handjet-Black.ttf */,
+				EC41D195B32C43EFAB5BDAA3 /* Handjet-Bold.ttf */,
+				58D8FCDABC5F4BF185EB3F28 /* Handjet-ExtraBold.ttf */,
+				8F0B1FC3F12F4704AB440EB6 /* Handjet-ExtraLight.ttf */,
+				1D3801ADE3D94505B9D2A633 /* Handjet-Light.ttf */,
+				913DBF55A5084FA5AFC01BFA /* Handjet-Medium.ttf */,
+				3AABAB7CC5C842F389B17F2F /* Handjet-Regular.ttf */,
+				CB29BE4DF0E9483C93C0BE57 /* Handjet-SemiBold.ttf */,
+				FBA89BA7FB304E17B8DB89A4 /* Handjet-Thin.ttf */,
+				0D4FCBD2F84D4DF28DC70E5F /* Handjet-VariableFont_ELGR,ELSH,wght.ttf */,
+				5EFC2310F91B4EF084EF3908 /* YsabeauInfant-Black.ttf */,
+				52CD5B246FE34C17BA2A1D30 /* YsabeauInfant-BlackItalic.ttf */,
+				D9AED098E5714309900BAB99 /* YsabeauInfant-Bold.ttf */,
+				5F074399A85D4E4E81342423 /* YsabeauInfant-BoldItalic.ttf */,
+				DDFC3CF4A3094082B2F6F640 /* YsabeauInfant-ExtraBold.ttf */,
+				FE33887FBE9F4DDBBB800E6E /* YsabeauInfant-ExtraBoldItalic.ttf */,
+				8C65A37FE536476F9A92440F /* YsabeauInfant-ExtraLight.ttf */,
+				5DDCBA08A35A40488914738C /* YsabeauInfant-ExtraLightItalic.ttf */,
+				424E37CE50C64C32AC7B67EC /* YsabeauInfant-Italic-VariableFont_wght.ttf */,
+				CD0427A6A21446C0BE004500 /* YsabeauInfant-Italic.ttf */,
+				200509045038492F9729EBDF /* YsabeauInfant-Light.ttf */,
+				4561B83552304EC2BF9BFE35 /* YsabeauInfant-LightItalic.ttf */,
+				934DC36B19534420ADFEAB24 /* YsabeauInfant-Medium.ttf */,
+				7C1557BED2C54D8FBC8586E7 /* YsabeauInfant-MediumItalic.ttf */,
+				5A8A406459F04ED5A7BFC345 /* YsabeauInfant-Regular.ttf */,
+				76AFB1DF56BF4F81AE98476B /* YsabeauInfant-SemiBold.ttf */,
+				F6ABA4A6FBFA419B90F7A2F3 /* YsabeauInfant-SemiBoldItalic.ttf */,
+				86F59873B1034DDEBF87D9E4 /* YsabeauInfant-Thin.ttf */,
+				8EE8F86297AD46A08D1B3EA6 /* YsabeauInfant-ThinItalic.ttf */,
+				F68221FF23214DD6879B76CD /* YsabeauInfant-VariableFont_wght.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* ReactNativeVoucherManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeVoucherManagementTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = ReactNativeVoucherManagementTests;
+			productName = ReactNativeVoucherManagementTests;
+			productReference = 00E356EE1AD99517003FC87E /* ReactNativeVoucherManagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* ReactNativeVoucherManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeVoucherManagement" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactNativeVoucherManagement;
+			productName = ReactNativeVoucherManagement;
+			productReference = 13B07F961A680F5B00A75B9A /* ReactNativeVoucherManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeVoucherManagement" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* ReactNativeVoucherManagement */,
+				00E356ED1AD99517003FC87E /* ReactNativeVoucherManagementTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				FACBAE5CCF4146DAB2266EBB /* Borel-Regular.ttf in Resources */,
+				E23D564D2DA34DEBB917E0AA /* Gilroy-Bold.ttf in Resources */,
+				2695F78F715E4356AA8CC9C2 /* Gilroy-ExtraBold.ttf in Resources */,
+				90A3A598146A4DC5B4F22D16 /* Gilroy-Medium.ttf in Resources */,
+				6F2FCDF0A7344EA2B1B41BFE /* Gilroy-Regular.ttf in Resources */,
+				79FDB6213B0841F2AAF0B74E /* Gilroy-SemiBold.ttf in Resources */,
+				7FA0BF7DAE7549C7B270F1A4 /* Roboto-Bold.ttf in Resources */,
+				F0444E4EC736411DAD5F2D35 /* Roboto-BoldItalic.ttf in Resources */,
+				AF24567D6E0E480AAEB988E1 /* Roboto-Italic.ttf in Resources */,
+				7583BF5DC9A049518F3C6E3C /* Roboto-Light.ttf in Resources */,
+				5ACA40169A914340803CFEB9 /* Roboto-LightItalic.ttf in Resources */,
+				4B9FFA14EF4F4128BFDE86F0 /* Roboto-Medium.ttf in Resources */,
+				32487A823D984E209BCEB384 /* Roboto-MediumItalic.ttf in Resources */,
+				C1B6666767C24D9F8B001AA4 /* Roboto-Regular.ttf in Resources */,
+				0208CE17279B44CEA231E4DD /* Roboto-Thin.ttf in Resources */,
+				CE8690B7EB9140FDBA8B24A4 /* Roboto-ThinItalic.ttf in Resources */,
+				70AA60DC58864A178D1F2C97 /* Handjet-Black.ttf in Resources */,
+				0FCE5EDB95B44A97B8CBF175 /* Handjet-Bold.ttf in Resources */,
+				BA0C2E2B3EE344C4B54561E7 /* Handjet-ExtraBold.ttf in Resources */,
+				EDDEBDA6AF174D4683B2B01B /* Handjet-ExtraLight.ttf in Resources */,
+				5A5353B578D34ED0ABAC7437 /* Handjet-Light.ttf in Resources */,
+				331194175BC342DC9F01FF10 /* Handjet-Medium.ttf in Resources */,
+				8E72F3A069AE41739CB2E7C6 /* Handjet-Regular.ttf in Resources */,
+				F43A144DD81E4B318FE17690 /* Handjet-SemiBold.ttf in Resources */,
+				48D0F5DCF59E453AA2AC69DA /* Handjet-Thin.ttf in Resources */,
+				84DE6E9FB57D4EF3AA04C460 /* Handjet-VariableFont_ELGR,ELSH,wght.ttf in Resources */,
+				020EF6FE2EB3498A8EA8EF7F /* YsabeauInfant-Black.ttf in Resources */,
+				347ED73C11D24670A3C4654A /* YsabeauInfant-BlackItalic.ttf in Resources */,
+				BCAE96A19BEA47F2AC17961A /* YsabeauInfant-Bold.ttf in Resources */,
+				C603A745A9C1490297390B77 /* YsabeauInfant-BoldItalic.ttf in Resources */,
+				724654B35FE442D19C6223D0 /* YsabeauInfant-ExtraBold.ttf in Resources */,
+				699AEB0DCB134E73B1F3ACFB /* YsabeauInfant-ExtraBoldItalic.ttf in Resources */,
+				BD8BF34282EA43B79A1E7C8F /* YsabeauInfant-ExtraLight.ttf in Resources */,
+				5E3A0C0118C840B0AD9EF51A /* YsabeauInfant-ExtraLightItalic.ttf in Resources */,
+				0E4902BBA17D417D9870EC00 /* YsabeauInfant-Italic-VariableFont_wght.ttf in Resources */,
+				039DBACE665C4510A19ED94C /* YsabeauInfant-Italic.ttf in Resources */,
+				C2F420EF554B4D86BAFFBECB /* YsabeauInfant-Light.ttf in Resources */,
+				10EB19521AEA425E9D0DA485 /* YsabeauInfant-LightItalic.ttf in Resources */,
+				8F17B26F14B94ECAAC82C9D1 /* YsabeauInfant-Medium.ttf in Resources */,
+				2D9886958C3E45989D5BE921 /* YsabeauInfant-MediumItalic.ttf in Resources */,
+				0C8F80B1D94640B2857D11A5 /* YsabeauInfant-Regular.ttf in Resources */,
+				564FFD9A78264C0DB23EA698 /* YsabeauInfant-SemiBold.ttf in Resources */,
+				DFF2E953F018457C823DBB81 /* YsabeauInfant-SemiBoldItalic.ttf in Resources */,
+				772EEC1FA43E4C1FAE5D046E /* YsabeauInfant-Thin.ttf in Resources */,
+				9F9633AD3B8B4CB08B5A62AA /* YsabeauInfant-ThinItalic.ttf in Resources */,
+				0EA4F31421814429860E3663 /* YsabeauInfant-VariableFont_wght.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeVoucherManagement/Pods-ReactNativeVoucherManagement-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeVoucherManagement/Pods-ReactNativeVoucherManagement-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeVoucherManagement/Pods-ReactNativeVoucherManagement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativeVoucherManagement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests/Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests/Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests/Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeVoucherManagement/Pods-ReactNativeVoucherManagement-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeVoucherManagement/Pods-ReactNativeVoucherManagement-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeVoucherManagement/Pods-ReactNativeVoucherManagement-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests/Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests/Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests/Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* ReactNativeVoucherManagementTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* ReactNativeVoucherManagement */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReactNativeVoucherManagementTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeVoucherManagement.app/ReactNativeVoucherManagement";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-ReactNativeVoucherManagement-ReactNativeVoucherManagementTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = ReactNativeVoucherManagementTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeVoucherManagement.app/ReactNativeVoucherManagement";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-ReactNativeVoucherManagement.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ReactNativeVoucherManagement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ReactNativeVoucherManagement;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-ReactNativeVoucherManagement.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = ReactNativeVoucherManagement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ReactNativeVoucherManagement;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeVoucherManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeVoucherManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeVoucherManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

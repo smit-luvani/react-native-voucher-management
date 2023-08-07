@@ -1,0 +1,189 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Borel-Regular.ttf",
+      "sha1": "93af82eec3087358e36d188076acee45492dad6a"
+    },
+    {
+      "path": "src/assets/fonts/Gilroy-Bold.ttf",
+      "sha1": "9ee3b9154afcd608ef76c584dd82ac48b0feded5"
+    },
+    {
+      "path": "src/assets/fonts/Gilroy-ExtraBold.ttf",
+      "sha1": "dc25fdedf9bd449496ea19464b95c396d6a78f14"
+    },
+    {
+      "path": "src/assets/fonts/Gilroy-Medium.ttf",
+      "sha1": "273a04108115357ca42857ea26448b0269661551"
+    },
+    {
+      "path": "src/assets/fonts/Gilroy-Regular.ttf",
+      "sha1": "8017fa012735b7328e737c58373e264b76323c60"
+    },
+    {
+      "path": "src/assets/fonts/Gilroy-SemiBold.ttf",
+      "sha1": "c6a7771fa8c42ba06d6a7a2a93bb233a26a6a62b"
+    },
+    {
+      "path": "src/assets/fonts/Handjet-Black.ttf",
+      "sha1": "57e4deda901c9162f0dac46a679a559b7d6ed0d2"
+    },
+    {
+      "path": "src/assets/fonts/Handjet-Bold.ttf",
+      "sha1": "680581adc6a687419fb3894dc32ebdca9bd014dd"
+    },
+    {
+      "path": "src/assets/fonts/Handjet-ExtraBold.ttf",
+      "sha1": "e376a3292561d8302b38af68ef9e4a343150d8a8"
+    },
+    {
+      "path": "src/assets/fonts/Handjet-ExtraLight.ttf",
+      "sha1": "e864030ef5e7916e3b39f572421887fb568556d7"
+    },
+    {
+      "path": "src/assets/fonts/Handjet-Light.ttf",
+      "sha1": "a2c210ca099ea66db4e66b75de94d1da2a66cabe"
+    },
+    {
+      "path": "src/assets/fonts/Handjet-Medium.ttf",
+      "sha1": "3c5cb90a4f8d0e96e7d2e0f2b7e893a8eb30800d"
+    },
+    {
+      "path": "src/assets/fonts/Handjet-Regular.ttf",
+      "sha1": "5b0cf8be31ab6a324daa6f1e16dc30771e80384f"
+    },
+    {
+      "path": "src/assets/fonts/Handjet-SemiBold.ttf",
+      "sha1": "354ccb821386f2fafe7aaaf7d99a8ad91e327155"
+    },
+    {
+      "path": "src/assets/fonts/Handjet-Thin.ttf",
+      "sha1": "c7c41211c0ec397d1de2d8229fb7704971898c29"
+    },
+    {
+      "path": "src/assets/fonts/Handjet-VariableFont_ELGR,ELSH,wght.ttf",
+      "sha1": "8eca9200544f66d603f59a39cfa7cf73ea2349f1"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-Bold.ttf",
+      "sha1": "62442a18a9fe9457c1afeabf683d263a691b7798"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-BoldItalic.ttf",
+      "sha1": "2f10ad9e8cab0880182705c4e0fbaeabae706e64"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-Italic.ttf",
+      "sha1": "65f3f6a7e1bd2fa6f2df35e4b07775d7f1dde4f0"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-Light.ttf",
+      "sha1": "18788c5d630fa695f9283f6393bfa541b2031508"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-LightItalic.ttf",
+      "sha1": "6e01f9df9449565697032b002706a94b51862bbe"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-Medium.ttf",
+      "sha1": "3c6a09fcc6a454924c81af7dff94fc6d399ed79b"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-MediumItalic.ttf",
+      "sha1": "b3aa2d8f16d5a331fdced82f213a052b204eaca0"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-Regular.ttf",
+      "sha1": "56c5c0d38bde4c1f1549dda43db37b09c608aad3"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-Thin.ttf",
+      "sha1": "58c733e22bceeaf9609ce578eca92ac303c6d92f"
+    },
+    {
+      "path": "src/assets/fonts/Roboto-ThinItalic.ttf",
+      "sha1": "cc79d5a23bd0ec08b1d99f5390bf33cacc3082f4"
+    },
+    {
+      "path": "src/assets/fonts/YsabeauInfant-Black.ttf",
+      "sha1": "783a512927bc0a39947e0f8b7dee3d2c27c78d7d"
+    },
+    {
+      "path": "src/assets/fonts/YsabeauInfant-BlackItalic.ttf",
+      "sha1": "0ac0485158e2e83e81ad5e47e3ffef022c77c7ac"
+    },
+    {
+      "path": "src/assets/fonts/YsabeauInfant-Bold.ttf",
+      "sha1": "104cc3778ac6f0aef0c5eb94cb777f814f32a1ad"
+    },
+    {
+      "path": "src/assets/fonts/YsabeauInfant-BoldItalic.ttf",
+      "sha1": "8d3111fb535d916b318d1d39844db3de9ea6796e"
+    },
+    {
+      "path": "src/assets/fonts/YsabeauInfant-ExtraBold.ttf",
+      "sha1": "a501689b91cbfdb3ce52e4634aec62ff49c5a03b"
+    },
+    {
+      "path": "src/assets/fonts/YsabeauInfant-ExtraBoldItalic.ttf",
+      "sha1": "cb0df008b8a5f07259bf4a567ca9c1c2fa066055"
+    },
+    {
+      "path": "src/assets/fonts/YsabeauInfant-ExtraLight.ttf",
+      "sha1": "3169cfbc31ec98d7684a04231152ae8b34b3b0f3"
+    },
+    {
+      "path": "src/assets/fonts/YsabeauInfant-ExtraLightItalic.ttf",
+      "sha1": "9e6db7cd9be83958d03007a1caf91d929a0728ad"
+    },
+    {
+      "path": "src/assets/fonts/YsabeauInfant-Italic-VariableFont_wght.ttf",
+      "sha1": "b7ed5ac8d985a940fbac13bfc15652bb154ab2e3"
+    },
+    {
+      "path": "src/assets/fonts/YsabeauInfant-Italic.ttf",
+      "sha1": "f81a844138c11d631a3776ce2cd13dd7419503f1"
+    },
+    {
+      "path": "src/assets/fonts/YsabeauInfant-Light.ttf",
+      "sha1": "1347907bc1596163ab9fb22999a543611333f43b"
+    },
+    {
+      "path": "src/assets/fonts/YsabeauInfant-LightItalic.ttf",
+      "sha1": "7b67dc0c0a50b678b023331c8bd186e2810ae485"
+    },
+    {
+      "path": "src/assets/fonts/YsabeauInfant-Medium.ttf",
+      "sha1": "277307d369f3efff7b38804d516eaccac22a1123"
+    },
+    {
+      "path": "src/assets/fonts/YsabeauInfant-MediumItalic.ttf",
+      "sha1": "aff6271198c2814acc668f0b679cd3a51a720f0b"
+    },
+    {
+      "path": "src/assets/fonts/YsabeauInfant-Regular.ttf",
+      "sha1": "c4a437416f1aa918af7adff0605f0f77a7712bef"
+    },
+    {
+      "path": "src/assets/fonts/YsabeauInfant-SemiBold.ttf",
+      "sha1": "7f33e40c9cf8a9bd67c49ca82ea6e21d4fc418bf"
+    },
+    {
+      "path": "src/assets/fonts/YsabeauInfant-SemiBoldItalic.ttf",
+      "sha1": "2085610b811d14562f49a377e4b9fa30865535c7"
+    },
+    {
+      "path": "src/assets/fonts/YsabeauInfant-Thin.ttf",
+      "sha1": "cd7bae3df76234187ee88bb021a4de753acfbcbd"
+    },
+    {
+      "path": "src/assets/fonts/YsabeauInfant-ThinItalic.ttf",
+      "sha1": "27feecfff7fe77f6ae738786fc29646f20892d8b"
+    },
+    {
+      "path": "src/assets/fonts/YsabeauInfant-VariableFont_wght.ttf",
+      "sha1": "6d6eb556ffcf71b5189349ce5f58b81c6ef9f077"
+    }
+  ]
+}

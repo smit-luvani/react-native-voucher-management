@@ -1,0 +1,252 @@
+[
+   {
+      "id":"c1f14394-78b4-4a8c-a176-cdd4e62c38b0",
+      "name":"Skylyn Tech",
+      "image":"https://picsum.photos/id/20/3670/2462"
+   },
+   {
+      "id":"d32c3580-d500-4090-878a-653b99df3c9f",
+      "name":"Quantro Systems",
+      "image":"https://picsum.photos/id/21/3008/2008"
+   },
+   {
+      "id":"53b0d929-b55c-4b6b-b198-ed6b899b2fe9",
+      "name":"Blueway Innovations",
+      "image":"https://picsum.photos/id/22/4434/3729"
+   },
+   {
+      "id":"631beea0-fdb2-4725-bac0-5ba0fb571317",
+      "name":"Opto Dynamic",
+      "image":"https://picsum.photos/id/23/3887/4899"
+   },
+   {
+      "id":"f6998e46-29b3-467d-9d04-bba0903350cb",
+      "name":"FreeField Solutions",
+      "image":"https://picsum.photos/id/24/4855/1803"
+   },
+   {
+      "id":"5bab17ec-32a8-4731-ae50-fe492342a416",
+      "name":"Cyclonix Corp",
+      "image":"https://picsum.photos/id/25/5000/3333"
+   },
+   {
+      "id":"f8f43f8d-5a88-4cd7-9fdf-e97d66540f8e",
+      "name":"Ultravio Tech",
+      "image":"https://picsum.photos/id/26/4209/2769"
+   },
+   {
+      "id":"f9e34bff-1a65-4811-81d9-ca3691c254c9",
+      "name":"EagleFly Systems",
+      "image":"https://picsum.photos/id/27/3264/1836"
+   },
+   {
+      "id":"63f1a07e-6ec8-4333-8d83-b0a0bba00230",
+      "name":"OptiMax Corporation",
+      "image":"https://picsum.photos/id/28/4928/3264"
+   },
+   {
+      "id":"e33571c9-7432-48a6-a9a2-9ee9a8c56db5",
+      "name":"NetDex",
+      "image":"https://picsum.photos/id/29/4000/2670"
+   },
+   {
+      "id":"d1a3eb8b-722c-4e6c-ac9b-4457a94af81e",
+      "name":"HyperDyne",
+      "image":"https://picsum.photos/id/30/1280/901"
+   },
+   {
+      "id":"041ce45b-b60c-4e2a-a31f-4d9e09f95b88",
+      "name":"Protonic Services",
+      "image":"https://picsum.photos/id/31/3264/4912"
+   },
+   {
+      "id":"277011be-76bc-4ac4-83de-a023832d3d2e",
+      "name":"SolEx Technologies",
+      "image":"https://picsum.photos/id/32/4032/3024"
+   },
+   {
+      "id":"7d61c946-0b09-4814-9771-e98b3cda6f29",
+      "name":"Starling Labs",
+      "image":"https://picsum.photos/id/33/5000/3333"
+   },
+   {
+      "id":"1e96a0c2-57e9-4abf-a0a1-cce592f8552b",
+      "name":"PulseStream",
+      "image":"https://picsum.photos/id/34/3872/2592"
+   },
+   {
+      "id":"0707ffa8-563b-44f5-8f18-d6b6b559d525",
+      "name":"GalaxyGrid",
+      "image":"https://picsum.photos/id/35/2758/3622"
+   },
+   {
+      "id":"53dafa5e-1f61-4151-b6e4-b4fcfbe3341d",
+      "name":"Streamline Services",
+      "image":"https://picsum.photos/id/36/4179/2790"
+   },
+   {
+      "id":"8eee3e90-a742-4453-b18f-ef603e1b7746",
+      "name":"Nebula Networks",
+      "image":"https://picsum.photos/id/37/2000/1333"
+   },
+   {
+      "id":"ee55da51-9e7d-4ccf-9e5d-9ea4b258a61a",
+      "name":"QuantumQuartz",
+      "image":"https://picsum.photos/id/38/1280/960"
+   },
+   {
+      "id":"8601fd5d-3380-4393-a803-2e90c5aa3853",
+      "name":"DataDreams Corp",
+      "image":"https://picsum.photos/id/39/3456/2304"
+   },
+   {
+      "id":"073957f9-4c3a-43ea-958d-524647229a16",
+      "name":"NextGen Tech",
+      "image":"https://picsum.photos/id/40/4106/2806"
+   },
+   {
+      "id":"8e0368dd-568c-4712-8988-b5d20bc703d8",
+      "name":"GlobalGrid",
+      "image":"https://picsum.photos/id/41/1280/805"
+   },
+   {
+      "id":"f5772061-d840-469f-abe7-0436b806a429",
+      "name":"Interlace Systems",
+      "image":"https://picsum.photos/id/42/3456/2304"
+   },
+   {
+      "id":"dddee29c-b3c6-4676-8aa7-2d4fc646467a",
+      "name":"Innova Dynamics",
+      "image":"https://picsum.photos/id/43/1280/831"
+   },
+   {
+      "id":"56e5afff-b3b4-4a1c-b049-bbbb5ebd4f0c",
+      "name":"WideWeb Services",
+      "image":"https://picsum.photos/id/44/4272/2848"
+   },
+   {
+      "id":"91b75866-07f9-481b-a7e3-af1530c56bd3",
+      "name":"Cosmic Computing",
+      "image":"https://picsum.photos/id/45/4592/2576"
+   },
+   {
+      "id":"1c3f069a-dda0-412a-b581-67dc518ef66a",
+      "name":"CyberSynth Solutions",
+      "image":"https://picsum.photos/id/46/3264/2448"
+   },
+   {
+      "id":"a11966a9-12c1-48a9-8062-28f98e68b11f",
+      "name":"Delta Dynamics",
+      "image":"https://picsum.photos/id/47/4272/2848"
+   },
+   {
+      "id":"eb35dcac-7753-4756-b261-e36a10d99195",
+      "name":"EchoTech Enterprises",
+      "image":"https://picsum.photos/id/48/5000/3333"
+   },
+   {
+      "id":"5aec9d27-dc07-4578-9eda-cbb285492a6a",
+      "name":"Flare Fusion",
+      "image":"https://picsum.photos/id/49/1280/792"
+   },
+   {
+      "id":"0a4d3386-b81f-4b68-a7ab-07b33ce55cec",
+      "name":"Giga Systems",
+      "image":"https://picsum.photos/id/50/4608/3072"
+   },
+   {
+      "id":"7f85d1a5-e372-4038-a5d8-f60e85fcc271",
+      "name":"HexaCore",
+      "image":"https://picsum.photos/id/51/5000/3333"
+   },
+   {
+      "id":"5c6466b6-2b9f-4635-b649-c04926c54fce",
+      "name":"Infino Solutions",
+      "image":"https://picsum.photos/id/52/1280/853"
+   },
+   {
+      "id":"31dca05c-e7a3-4683-8cae-e23d77c8f870",
+      "name":"Jade Junction",
+      "image":"https://picsum.photos/id/53/1280/1280"
+   },
+   {
+      "id":"96622706-ca22-4a07-ab5a-955dc1a50a5b",
+      "name":"Kinetica Networks",
+      "image":"https://picsum.photos/id/54/3264/2176"
+   },
+   {
+      "id":"98a0736a-69f3-4f06-9e8c-206b3c265bbd",
+      "name":"Lumina Labs",
+      "image":"https://picsum.photos/id/55/4608/3072"
+   },
+   {
+      "id":"2b8f1d1d-155a-4670-bf97-02fcd0ff8ce2",
+      "name":"MagnaNet",
+      "image":"https://picsum.photos/id/56/2880/1920"
+   },
+   {
+      "id":"c635a23c-43bb-4c4c-8e66-fee522293d11",
+      "name":"NovaLink",
+      "image":"https://picsum.photos/id/57/2448/3264"
+   },
+   {
+      "id":"ce89c20d-a571-4e82-9a66-54fa6b049105",
+      "name":"Omnia Systems",
+      "image":"https://picsum.photos/id/58/1280/853"
+   },
+   {
+      "id":"9385c724-a762-4ad9-8558-bba99fed6159",
+      "name":"Penta Prism Solutions",
+      "image":"https://picsum.photos/id/59/2464/1632"
+   },
+   {
+      "id":"98a4638b-f79b-43e0-a8fa-6c6e87dc7464",
+      "name":"Quantix",
+      "image":"https://picsum.photos/id/60/1920/1200"
+   },
+   {
+      "id":"484a9948-de39-4a92-b8e4-34600b564966",
+      "name":"Radiant Reality",
+      "image":"https://picsum.photos/id/61/3264/2448"
+   },
+   {
+      "id":"22027e9d-1bf4-4bc7-87fd-1db51c2794e7",
+      "name":"Supra Systems",
+      "image":"https://picsum.photos/id/62/2000/1333"
+   },
+   {
+      "id":"16bf9394-69fa-4be7-bb30-dec2f4611256",
+      "name":"TeraTune Technologies",
+      "image":"https://picsum.photos/id/63/5000/2813"
+   },
+   {
+      "id":"33cf89ab-a260-4146-9aa3-b3dc1b870fa6",
+      "name":"UltraView",
+      "image":"https://picsum.photos/id/64/4326/2884"
+   },
+   {
+      "id":"28569740-d68e-4cea-ba2e-3f512c625012",
+      "name":"Vista Ventures",
+      "image":"https://picsum.photos/id/65/4912/3264"
+   },
+   {
+      "id":"312067ca-33a1-43f9-b0b6-26b5716ebae7",
+      "name":"WaveWorks",
+      "image":"https://picsum.photos/id/66/3264/2448"
+   },
+   {
+      "id":"e7a639d1-db93-4f71-98f0-df3744a63454",
+      "name":"XenoSphere",
+      "image":"https://picsum.photos/id/67/2848/4288"
+   },
+   {
+      "id":"3eb86bcf-a6d9-44f6-a3a0-ad9230719d3c",
+      "name":"Yotta Systems",
+      "image":"https://picsum.photos/id/68/4608/3072"
+   },
+   {
+      "id":"8db8e902-76e3-49a5-8739-1ac3cc33399f",
+      "name":"Zenith Networks",
+      "image":"https://picsum.photos/id/69/4912/3264"
+   }
+]
